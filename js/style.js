@@ -23,7 +23,7 @@ const styleWrapper = `
 const styleQuizBlock = `
   width: 1440px;
   min-height: 500px;
-  padding: 0px 15px;
+  margin: 0px 15px;
   border: 2px solid black;
   border-radius: 10px;
   background-color: rgba(94, 208, 208, 0.8);
