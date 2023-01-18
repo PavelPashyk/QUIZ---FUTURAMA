@@ -11,7 +11,7 @@ const styleBody = `
 const styleWrapper = `
   width: 100%;
   height: 100vh;
-  background-image: url("./futurama.jpeg");
+  background-image: url("../img/futurama.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -21,7 +21,7 @@ const styleWrapper = `
 `;
 
 const styleQuizBlock = `
-  width: 1440px;
+  width: 1200px;
   min-height: 500px;
   margin: 0px 15px;
   border: 2px solid black;

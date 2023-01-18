@@ -87,6 +87,10 @@ quizBody.append(errorText);
 errorText.innerText = "Choose an answer!!!";
 errorText.style.cssText = styleErrorText;
 
+let resultBlock = document.createElement("div");
+quizBtn.before(resultBlock);
+resultBlock.style.cssText = styleResultBlock;
+
 let score = 0;
 let numberQuestion = getRandomNumber(0, 21);
 const lengthQuestions = numberQuestion + 6;
@@ -130,9 +134,6 @@ quizBtn.addEventListener("click", () => {
   clickAnswerBtn();
 });
 
-let resultBlock = document.createElement("div");
-quizBtn.before(resultBlock);
-resultBlock.style.cssText = styleResultBlock;
 
 function clickAnswerBtn() {
   const checkedAnswer = quizBody.querySelector("input[type = radio]:checked");
